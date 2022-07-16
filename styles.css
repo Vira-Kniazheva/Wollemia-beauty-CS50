@@ -1,0 +1,32 @@
+body {
+    font-family: "Heading Pro";
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Arial";
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+/* HERO */
+#hero {
+    background: linear-gradient(#1B1F34, rgba(27, 31, 52, 0.0)), url(img/img1.jpeg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
