@@ -5,13 +5,9 @@ body {
     background-color: var(--bg1);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Arial";
+    color: white;
 }
 
 img {
@@ -23,10 +19,52 @@ section {
     padding-bottom: 160px;
 }
 
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(to bottom, #1B1F34, rgba(27, 31, 52, 0.0));
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: pink;
+}
+
+.navbar-brand {
+    font-family: "Heading Pro";
+    font-size: 25px;
+}
+
 /* HERO */
 #hero {
-    background: linear-gradient(#1B1F34, rgba(27, 31, 52, 0.0)), url(img/img1.jpeg);
+    background: linear-gradient(to right, #1B1F34, rgba(27, 31, 52, 0.0)), url(img/img1.jpeg);
     min-height: 100vh;
     background-position: center;
     background-size: cover;
+}
+
+/* BTN */
+.btn {
+    padding: 16px, 36px;
+    font-family: "Heading Pro";
+    transition: all 0.4 ease;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: pink;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: pink;
+    border-color: pink;
+}
+
+.btn-outline-brand {
+        background-color: transparent;
+        color: pink;
+        border-color: pink;
+}
+
+.btn-outline-brand:hover {
+    background-color: pink;
 }
