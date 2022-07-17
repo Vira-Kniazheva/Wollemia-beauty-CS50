@@ -5,9 +5,14 @@ body {
     background-color: var(--bg1);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h6 {
     font-family: "Arial";
     color: white;
+}
+
+p {
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.82);
 }
 
 img {
@@ -15,15 +20,15 @@ img {
 }
 
 section {
-    padding-top: 160px;
-    padding-bottom: 160px;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 /* NAVBAR */
 .navbar {
     background: linear-gradient(to bottom, #1B1F34, rgba(27, 31, 52, 0.0));
 }
-
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .navbar .navbar-nav .nav-link.active {
     color: pink;
 }
@@ -39,6 +44,11 @@ section {
     min-height: 100vh;
     background-position: center;
     background-size: cover;
+}
+
+#hero p {
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 /* BTN */
@@ -60,11 +70,24 @@ section {
 }
 
 .btn-outline-brand {
-        background-color: transparent;
-        color: pink;
-        border-color: pink;
+    background-color: transparent;
+    color: pink;
+    border-color: pink;
 }
 
 .btn-outline-brand:hover {
     background-color: pink;
+}
+
+/* ABOUT CSS */
+body {
+    font-family: "Heading Pro";
+    background: linear-gradient(to right, #1B1F34, rgba(27, 31, 52, 0.0));
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    color: pink;
 }
