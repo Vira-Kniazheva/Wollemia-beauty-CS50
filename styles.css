@@ -168,4 +168,46 @@ body {
     margin-bottom: 18px;
 }
 
+/* ALL FOR ANIMATION */
 
+.intro {
+    background: pink;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.intro-text {
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-size: 3rem;
+}
+
+.hide {
+    background: pink;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+.text {
+    font-size: 48px;
+}
