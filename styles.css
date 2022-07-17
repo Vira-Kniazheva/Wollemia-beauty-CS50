@@ -10,6 +10,29 @@ h1, h6 {
     color: white;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: pink;
+}
+
+.link-more {
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    left: 1px;
+}
+
+.link-more {
+    transition: all 0.4s ease;
+}
+
+
 p {
     font-family: "Arial";
     color: rgba(255, 255, 255, 0.82);
@@ -23,6 +46,18 @@ section {
     padding-top: 250px;
     padding-bottom: 250px;
 }
+
+
+/* INTRO */
+.intro {
+    margin-bottom: 60px;
+}
+
+.intro h1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
 
 /* NAVBAR */
 .navbar {
@@ -88,6 +123,49 @@ body {
     background-size: cover;
 }
 
-h2 {
+#about {
+    background: #1B1F34;
+    position: relative;
+}
+
+#about::after {
+    content: "";
+    width: 25%;
+    height: 100%;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#about h6 {
     color: pink;
 }
+
+#about h1 {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+#about .signature {
+    width: 100%;
+}
+
+/* BRENDS CSS */
+#namebrends {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background: #1B1F34;
+}
+
+#namebrends .servicebrend .content {
+    padding: 32px;
+}
+
+#namebrends .servicebrend p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+
