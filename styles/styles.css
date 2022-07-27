@@ -1,0 +1,222 @@
+body {
+    font-family: "Heading Pro";
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
+
+h1, h6 {
+    font-family: "Arial";
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: pink;
+}
+
+.link-more {
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    left: 1px;
+}
+
+.link-more {
+    transition: all 0.4s ease;
+}
+
+
+p {
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.82);
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+
+/* INTRO */
+.intro {
+    margin-bottom: 60px;
+}
+
+.intro h1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.ctn-btns {
+    margin-top: 80px;
+}
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(to bottom, #1B1F34, rgba(27, 31, 52, 0.0));
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: pink;
+}
+
+.navbar-brand {
+    font-family: "Heading Pro";
+    font-size: 25px;
+}
+
+/* HERO */
+#hero {
+    background: linear-gradient(to right, #1B1F34, rgba(27, 31, 52, 0.0)), url(img/img1.jpeg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* BTN */
+.btn {
+    padding: 16px, 36px;
+    font-family: "Heading Pro";
+    transition: all 0.4 ease;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: pink;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: pink;
+    border-color: pink;
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: pink;
+    border-color: pink;
+}
+
+.btn-outline-brand:hover {
+    background-color: rgb(255, 192, 203);
+}
+
+/* ABOUT CSS */
+body {
+    font-family: "Heading Pro";
+    background: linear-gradient(to right, #1B1F34, rgba(27, 31, 52, 0.0));
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#about {
+    background: #1B1F34;
+    position: relative;
+}
+
+#about::after {
+    content: "";
+    width: 25%;
+    height: 100%;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#about h6 {
+    color: pink;
+}
+
+#about h1 {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+#about .signature {
+    width: 100%;
+}
+
+/* BRENDS CSS */
+#namebrends {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background: #1B1F34;
+}
+
+#namebrends .h5 {
+    color: white;
+}
+
+#namebrends .servicebrend .content {
+    padding: 32px;
+}
+
+#namebrends .servicebrend p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+/* ALL FOR ANIMATION */
+
+.animate-intro {
+    background: pink;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.intro-text {
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-size: 3rem;
+}
+
+.hide {
+    background: pink;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+.text {
+    font-size: 48px;
+}
+
+/* COUNTERS */
