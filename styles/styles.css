@@ -78,7 +78,7 @@ section {
 
 /* HERO */
 #hero {
-    background: linear-gradient(to right, #1B1F34, rgba(27, 31, 52, 0.0)), url(img/img1.jpeg);
+    background: linear-gradient(to right, #1B1F34, rgba(27, 31, 52, 0.0)), url(/img/img1.jpeg);
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -219,4 +219,14 @@ body {
     font-size: 48px;
 }
 
-/* COUNTERS */
+/* BLOG */
+#blog {
+    background-color: #1B1F34;
+}
+
+
+.text-blog {
+    color: white;
+    size: 150px;
+    color: pink;
+}
