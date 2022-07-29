@@ -222,11 +222,48 @@ body {
 /* BLOG */
 #blog {
     background-color: #1B1F34;
+
 }
 
+.blog-post {
+    position: relative;
+}
 
 .text-blog {
     color: white;
     size: 150px;
     color: pink;
 }
+
+.blog-post .date {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.blog-post .day {
+    font-size: 32px;
+    font-family: "Heading Pro";
+    color: black;
+    line-height: 1;
+}
+
+.blog-post .year {
+    color: black;
+}
+
+.text-center {
+    margin-top: -100px;
+}
+
+.blog-post-2line {
+    top: 50px;
+}
+
