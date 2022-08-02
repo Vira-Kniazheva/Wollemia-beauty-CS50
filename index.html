@@ -14,15 +14,15 @@
       crossorigin="anonymous"
     ></script>
     <link href="/styles/styles.css" rel="stylesheet" />
-    <title>Wollemia beauty/about</title>
+    <title>Wollemia beauty</title>
   </head>
-  <body id="about" data-bs-spy="scroll" data-bs-target=".navbar">
+  <body id="home" data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <a
           class="navbar-brand"
-          href="/structure/index.html"
+          href="/index.html"
           class="nav-link"
           href="#scrollspyHeading1"
           >Wollemia beauty</a
@@ -41,54 +41,64 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="/structure/about.html"
+              <a class="nav-link active" aria-current="page" href="/about.html"
                 >Про нас</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/structure/brendspage.html">Бренди</a>
+              <a class="nav-link" href="/brendspage.html">Бренди</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/structure/blog.html">Блог</a>
+              <a class="nav-link" href="/blog.html">Блог</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Контакти</a>
             </li>
           </ul>
-          <a href="#" class="btn btn-outline-brand ms-lg-3"
+          <a href="#" class="btn btn-outline-brand btn-consult ms-lg-3"
             >Перейти до каталогу товарів</a
           >
         </div>
       </div>
     </nav>
-    <!-- About -->
-    <section id="brends">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-5">
-            <img class="signature" src="/img/img9.jpeg" alt="" />
-          </div>
-          <div class="col-lg-4 offset-lg-1">
-            <h6>Про нас</h6>
-            <h1>Wollemia beauty</h1>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="container big-text">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="display-3">Все про оригінальну корейську косметику</h1>
             <p>
-              Wollemia beauty - це простір з унікальним підходом до кожного. Це
-              територія, де кожна знайде поради для догляду за собою. Та навіть
-              зможе придбати товари, які підходять саме їй.
+              Тут ви дізнаєтесь все про корейську косметику та про правильний
+              догляд за собою
             </p>
-            <p>
-              Територія доглянутої шкіри, ідеального волосся, територія твого
-              затишку. Наш асортмент – це найкращі бренди професійної косметики.
-              Тому ми зобов’язані слідкувати за тенденціями та обирати тільки
-              найкраще.
-            </p>
+            <a href="#" class="btn btn-brand">Забронювати консультацію</a>
           </div>
         </div>
       </div>
     </section>
-    <!--// About -->
+
+    <!-- Animation -->
+    <div class="animate-intro">
+    <div class="intro-text">
+      <h1 class="hide">
+        <span class="text">Все, що вас цікавить</span>
+      </h1>
+      <h1 class="hide">
+        <span class="text">про оригінальну</span>
+      </h1>
+      <h1 class="hide">
+        <span class="text">корейську косметику.</span>
+      </h1>
+    </div>
+    <div class="slider"></div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+      integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/js/animation.js"></script>
   </body>
 </html>

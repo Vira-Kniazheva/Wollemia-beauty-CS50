@@ -175,6 +175,10 @@ body {
     margin-bottom: 18px;
 }
 
+.intro {
+    padding-top: 100px;
+}
+
 /* ALL FOR ANIMATION */
 
 .animate-intro {
@@ -263,7 +267,12 @@ body {
     margin-top: -100px;
 }
 
-.blog-post-2line {
-    top: 50px;
+.blog-top {
+    margin-top: -100px;
 }
+
+.blog-top-2line {
+    margin-bottom: 50px;
+}
+
 
