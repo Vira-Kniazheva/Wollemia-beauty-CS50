@@ -1,0 +1,169 @@
+/* Contact Form */
+body {
+    background: linear-gradient(to bottom, #1B1F34, rgba(27, 31, 52, 0.0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    max-width: 576px;
+    margin: 0 16px;
+    display: block;
+}
+
+form h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+form .form-inline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+
+form .form {
+    margin-bottom: 16px;
+    position: relative;
+    width: 100%;
+}
+
+form .form input,
+form .form textarea {
+    padding: 8px;
+    width: 100%;
+    border-radius: 3px;
+    border: 2px solid pink;
+    outline: none;
+    transition: .3s ease;
+}
+
+form .form label {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    color: #7c7c7c;
+    transform: translateY(-50%);
+    padding: 0 2px;
+    transition: .3s ease;
+}
+
+form .form textarea ~ label {
+    top: 8px;
+    transform: unset;
+}
+
+form .form textarea {
+    resize: vertical;
+}
+
+form .form input.invalid~label,
+form .form textarea.invalid~label,
+form .form input.valid ~ label,
+form .form textarea.valid ~ label,
+form .form input:focus ~ label,
+form .form textarea:focus ~ label {
+    top: -10px;
+    font-size: 13px;
+    font-weight: 500;
+    background: #fff;
+    transform: unset;
+}
+
+form .form input.valid ~ label,
+form .form textarea.valid ~ label {
+    color: rgb(37, 113, 211);
+}
+
+form .form input.valid,
+form .form textarea.valid {
+    border-color: rgb(38, 36, 135);
+}
+
+form .form input.invalid~label,
+form .form textarea.invalid~label {
+    color: red;
+}
+
+form .form input.invalid,
+form .form textarea.invalid {
+    border-color: red;
+}
+
+form button {
+    padding: 10px 30px;
+    background: transparent;
+    color: #1B1F34;
+    border: 2px solid pink;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s ease;
+    font-weight: 600;
+}
+
+form button:hover {
+    background: pink;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    form .form-inline {
+        grid-gap: unset;
+        grid-template-columns: 1fr;
+    }
+    form button {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(to bottom, #1B1F34, rgba(27, 31, 52, 0.0));
+    font-family: "Heading Pro";
+}
+
+.navbar-brand {
+    font-family: "Heading Pro";
+    font-size: 25px;
+}
+
+/* BTN */
+.btn {
+    padding: 16px, 36px;
+    font-family: "Heading Pro";
+    transition: all 0.4 ease;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: pink;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: pink;
+    border-color: pink;
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: pink;
+    border-color: pink;
+}
+
+.btn-outline-brand:hover {
+    background-color: rgb(255, 192, 203);
+}

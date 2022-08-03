@@ -67,10 +67,6 @@ section {
     background: linear-gradient(to bottom, #1B1F34, rgba(27, 31, 52, 0.0));
 }
 
-.navbar .navbar-nav .nav-link.active {
-    color: pink;
-}
-
 .navbar-brand {
     font-family: "Heading Pro";
     font-size: 25px;
@@ -274,5 +270,7 @@ body {
 .blog-top-2line {
     margin-bottom: 50px;
 }
+
+
 
 

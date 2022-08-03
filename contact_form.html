@@ -13,10 +13,10 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
-    <link href="/styles/styles.css" rel="stylesheet" />
-    <title>Wollemia beauty</title>
+    <link href="/styles/contact_form_style.css" rel="stylesheet" />
+    <title>Wollemia beauty/contact form</title>
   </head>
-  <body id="home" data-bs-spy="scroll" data-bs-target=".navbar">
+  <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
@@ -62,43 +62,31 @@
       </div>
     </nav>
 
-    <!-- HERO -->
-    <section id="hero">
-      <div class="container big-text">
-        <div class="row">
-          <div class="col-lg-6">
-            <h1 class="display-3">Все про оригінальну корейську косметику</h1>
-            <p>
-              Тут ви дізнаєтесь все про корейську косметику та про правильний
-              догляд за собою
-            </p>
-            <a href="/contact_form.html" class="btn btn-brand">Забронювати консультацію</a>
-          </div>
+    <!--Contact Form-->
+    <form action="https://formspree.io/f/xjvzbabe" method="post" id="my-form">
+      <h2>Контактна форма звʼязку</h2>
+      <div class="form-inline">
+        <div class="form">
+          <input type="text" id="first-name" name="name" />
+          <label for="first-name">Імʼя</label>
+        </div>
+        <div class="form">
+          <input type="text" id="last-name" name="surname" />
+          <label for="last-name">Прізвище</label>
         </div>
       </div>
-    </section>
+      <div class="form">
+        <input type="email" id="email" name="email" />
+        <label for="email">Email</label>
+      </div>
+      <div class="form">
+        <textarea id="bio" cols="30" rows="5" name="message"></textarea>
+        <label for="bio">Ваше запитання</label>
+      </div>
+      <button type="submit">Відправити</button>
+    </form>
 
-    <!-- Animation -->
-    <div class="animate-intro">
-    <div class="intro-text">
-      <h1 class="hide">
-        <span class="text">Все, що вас цікавить</span>
-      </h1>
-      <h1 class="hide">
-        <span class="text">про оригінальну</span>
-      </h1>
-      <h1 class="hide">
-        <span class="text">корейську косметику.</span>
-      </h1>
-    </div>
-    <div class="slider"></div>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
-      integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="/js/animation.js"></script>
+    <script src="/js/contact_form.js"></script>
+    <div id="status"></div>
   </body>
 </html>
