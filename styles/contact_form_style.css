@@ -1,6 +1,6 @@
 /* Contact Form */
-body {
-    background: linear-gradient(to bottom, #1B1F34, rgba(27, 31, 52, 0.0));
+.contact_form {
+    background: linear-gradient(to right, #1B1F34, rgba(27, 31, 52, 0.0));
     display: flex;
     justify-content: center;
     align-items: center;
