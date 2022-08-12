@@ -1,0 +1,73 @@
+[
+  {
+    "id": "0000",
+    "name": "Dr.Jart",
+    "image": "D_J_1.jpeg",
+    "description": "Альгінатна маска для обличчя",
+    "price": 210,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "0001",
+    "name": "Dr.Jart",
+    "image": "D_J_2.jpeg",
+    "description": "Альгінатна маска для обличчя",
+    "price": 210,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "0002",
+    "name": "Dr.Jart",
+    "image": "D_J_3.jpeg",
+    "description": "Альгінатна маска для обличчя",
+    "price": 210,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "0003",
+    "name": "Dr.Jart",
+    "image": "D_J_4.jpeg",
+    "description": "Альгінатна маска для обличчя",
+    "price": 210,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "0004",
+    "name": "Real",
+    "image": "Real_2.jpeg",
+    "description": "Mаска для обличчя",
+    "price": 30,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "0005",
+    "name": "Real",
+    "image": "Real_1.jpeg",
+    "description": "Mаска для обличчя",
+    "price": 30,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "0006",
+    "name": "RoseHeart",
+    "image": "Rose_heart_1.jpeg",
+    "description": "Mаска для обличчя",
+    "price": 100,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "0007",
+    "name": "RoseHeart",
+    "image": "Rose_heart_2.jpeg",
+    "description": "Mаска для обличчя",
+    "price": 100,
+    "bx-cart": "Купити"
+  }
+]

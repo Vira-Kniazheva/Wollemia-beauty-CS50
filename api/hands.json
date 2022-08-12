@@ -1,0 +1,73 @@
+[
+  {
+    "id": "000000",
+    "name": "FarmStay",
+    "image": "Farm_stay_1.jpeg",
+    "description": "Крем для рук",
+    "price": 100,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "000001",
+    "name": "FarmStay",
+    "image": "Farm_stay_2.jpeg",
+    "description": "Крем для рук",
+    "price": 100,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "000002",
+    "name": "FarmStay",
+    "image": "Farm_stay_1.jpeg",
+    "description": "Крем для рук",
+    "price": 100,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "000003",
+    "name": "FarmStay",
+    "image": "Farm_stay_2.jpeg",
+    "description": "Крем для рук",
+    "price": 100,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "000004",
+    "name": "FarmStay",
+    "image": "Farm_stay_1.jpeg",
+    "description": "Крем для рук",
+    "price": 100,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "000005",
+    "name": "FarmStay",
+    "image": "Farm_stay_2.jpeg",
+    "description": "Крем для рук",
+    "price": 100,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "000006",
+    "name": "FarmStay",
+    "image": "Farm_stay_1.jpeg",
+    "description": "Крем для рук",
+    "price": 100,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "000007",
+    "name": "FarmStay",
+    "image": "Farm_stay_2.jpeg",
+    "description": "Крем для рук",
+    "price": 100,
+    "bx-cart": "Купити"
+  }
+]

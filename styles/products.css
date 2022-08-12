@@ -92,6 +92,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin-top: auto;
 }
 
 .container {
@@ -102,7 +103,7 @@ section {
     text-align: center;
     cursor: pointer;
     padding-top: 2rem;
-    padding-left: 50px;
+    padding-left: 25px;
     padding-right: 50px;
 }
 
@@ -149,3 +150,6 @@ section {
 .box:hover {
     transform: translateY(-5px);
 }
+
+
+

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "00000",
+    "name": "Kerasys",
+    "image": "Kerasys.jpeg",
+    "description": "Шампунь",
+    "price": 250,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "00001",
+    "name": "Lador",
+    "image": "Lador.jpeg",
+    "description": "Маска для волосся",
+    "price": 180,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "00002",
+    "name": "Kerasys",
+    "image": "Kerasys.jpeg",
+    "description": "Шампунь",
+    "price": 250,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "00003",
+    "name": "Lador",
+    "image": "Lador.jpeg",
+    "description": "Маска для волосся",
+    "price": 180,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "00004",
+    "name": "Kerasys",
+    "image": "Kerasys.jpeg",
+    "description": "Шампунь",
+    "price": 250,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "00005",
+    "name": "Lador",
+    "image": "Lador.jpeg",
+    "description": "Маска для волосся",
+    "price": 180,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "00006",
+    "name": "Kerasys",
+    "image": "Kerasys.jpeg",
+    "description": "Шампунь",
+    "price": 250,
+    "bx-cart": "Купити"
+  },
+
+  {
+    "id": "00007",
+    "name": "Lador",
+    "image": "Lador.jpeg",
+    "description": "Маска для волосся",
+    "price": 180,
+    "bx-cart": "Купити"
+  }
+]
